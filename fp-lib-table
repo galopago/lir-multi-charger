@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Battery_Coin_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/Battery_Coin_SMD.pretty")(options "")(descr ""))
+)

@@ -137,6 +137,19 @@
   )
 
 
+  (wire (pts (xy 52.07 102.87) (xy 59.69 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 41039134-221d-489a-a08a-daa33a738729)
+  )
+  (wire (pts (xy 52.07 105.41) (xy 52.07 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 75ff72ce-e5ef-4b3a-bd03-e3f3b956559c)
+  )
+  (wire (pts (xy 33.02 105.41) (xy 52.07 105.41))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid be3bc6ad-14c2-4113-af54-1fd9ac577876)
+  )
+
   (symbol (lib_id "Device:Battery_Cell") (at 59.69 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a0c578b-7a8f-4b47-bae2-b91033c942ea)
@@ -146,7 +159,7 @@
     (property "Value" "Battery_Cell" (id 1) (at 63.5 107.1879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450" (id 2) (at 59.69 106.426 90)
+    (property "Footprint" "Battery_Coin_SMD:CR2450" (id 2) (at 59.69 106.426 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 59.69 106.426 90)
@@ -177,7 +190,7 @@
 
   (symbol_instances
     (path "/6a0c578b-7a8f-4b47-bae2-b91033c942ea"
-      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450")
+      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Battery_Coin_SMD:CR2450")
     )
     (path "/ecc76268-d1b1-479a-a89b-3a5c8226dd54"
       (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal")
