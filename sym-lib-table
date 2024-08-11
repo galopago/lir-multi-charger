@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Li_ion_charger")(type "KiCad")(uri "${KIPRJMOD}/library/Li_ion_charger.kicad_sym")(options "")(descr ""))
+  (lib (name "coin-batt-charger")(type "KiCad")(uri "${KIPRJMOD}/library/coin-batt-charger.kicad_sym")(options "")(descr ""))
 )
